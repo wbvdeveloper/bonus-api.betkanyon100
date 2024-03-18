@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^sans/(.*?)$ sans/index.php?page=bonus-yonetimi&id=$1 [L]
+
+
+

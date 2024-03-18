@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^payfix/withdraw/test$ payfix_withdraw_callback.php [L,QSA]
+RewriteRule ^payfix/withdraw$ payfix_withdraw_callback.php [L,QSA]
